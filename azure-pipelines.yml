@@ -1,0 +1,28 @@
+# Build MART-report-DTO with Gradle
+
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+
+  - script: |
+      wget -O /tmp/openjdk.tar.gz https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz
+      mkdir -p /opt/java/openjdk
+      cd /opt/java/openjdk
+      tar -xf /tmp/openjdk.tar.gz --strip-components=1
+    displayName: 'Install JDK 17'
+
+  - task: Gradle@2
+    inputs:
+      workingDirectory: ''
+      gradleWrapperFile: 'gradlew'
+      gradleOptions: '-Xmx3072m'
+      javaHomeOption: 'JDKVersion'
+      jdkVersionOption: '1.17'
+      jdkArchitectureOption: 'x64'
+      publishJUnitResults: true
+      testResultsFiles: '**/TEST-*.xml'
+      tasks: 'build'

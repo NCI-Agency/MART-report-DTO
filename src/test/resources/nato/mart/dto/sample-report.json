@@ -1,0 +1,41 @@
+{
+  "recommendations": "RC TEC assessment and recommendations  information filled",
+  "comments": "LMT Comments information filled",
+  "attitude": "Attitude/Behavior of the Contact information filled",
+  "description": "Description information filled",
+  "contacts": [
+    {
+      "firstName": "Častimir",
+      "lastName": "Kralj",
+      "nationality": "Slovenia",
+      "position": "student",
+      "organisation": "University of Ljubljana"
+    }
+  ],
+  "topics": [
+    "Topic 1"
+  ],
+  "eventDate": "2021-04-19T15:00:00.000Z",
+  "eventEndDate": "2021-04-19T16:00:00.000Z",
+  "eventHeadline": "Factor",
+  "grid": "4QFJ12345678",
+  "lastModificationTime": "2021-04-20T10:30:00.000Z",
+  "location": "48CB5D86-E2CF-45A7-A24A-CA2219E18BA4",
+  "municipality": "Mun 1",
+  "reportingTeam": "W5",
+  "command": "RMLT",
+  "uuid": "a23679a0-17bf-4901-ab60-81a4a706e7f7",
+  "factors": [
+    "Weak institutions"
+  ],
+  "domains": [],
+  "images": [
+    {
+      "fileName": "sample.png",
+      "data": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAA5FBMVEUAAAD/AAD/AID/AFW/AEDMAGbVAFXbAEnfAGDjAFXMAE3RAEbbAEndAETdAFXPAFDXDVHZDU3cDFHZCVXbCVLTCU/aCFPXB1HZBlPYBlPWBVLYBVPVCU/WCVLZCVHVCE/YCFLWCFPXB1DWB1PXB0/WBlDWBlLYBlDWCFLXCFDYB1DWB1HYB1HXB1HYB1HWBlDXBlLYBlHXCFLXCFHXB1LWB1LXB1LWBlHXBlHXCFDXCFHXB1HXB1LXB1DXB1HWB1HWCFHXB1HXB1HXB1HXB1HXCFHXCFHXB1HXB1HXB1HXB1H///8h38pqAAAASnRSTlMAAQIDBAUGBwgJCgsODw8QExQWGxwdIiYoLjI0Nzg8PUFERkpNUFFWXWZpa25ydXZ6e4aHk5aZnZ6lqrGyu73Dyc3R0uPt7vD5/XXIwbAAAACUSURBVHjaXMEDdgRBAEDBP7Zj20bHWfP+B9o3RhU5e9NQqWn3k+Vy+nkpkQuG84/DjROx+JJJqd+jfVJ3yztSpyMX2EqQ+s8Ayu85cLWzrvP0QmqswPEaaFy/k+oBtxpIPJ6R+gMOLog050clNdDAe72Kz0RC5u0B8M9v9iRy2zOTNnFNm/W/R5sjzunYXU1BAMoCALb7DZj/nhkQAAAAAElFTkSuQmCC",
+      "title": "Title of image",
+      "mimeType": "image/png"
+    }
+  ],
+  "submittedTime": "2021-04-20T13:50:00.000Z"
+}
